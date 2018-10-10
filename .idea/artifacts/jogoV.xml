@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="jogoV">
+    <output-path>$PROJECT_DIR$/classes/artifacts/jogoV</output-path>
+    <root id="archive" name="jogoV.jar" />
+  </artifact>
+</component>
