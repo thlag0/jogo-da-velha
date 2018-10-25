@@ -32,6 +32,35 @@ public class Interface {
                  }
             }
         });
+
+
+        Q12.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if(Q12.getText().equals("X")){
+                    jogador.setText("Jogador 1");
+                    Q12.setText("O");
+                }else {
+                    Q12.setText("X");
+                    jogador.setText("Jogador 2");
+                }
+            }
+        });
+        Q13.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                super.mouseClicked(e);
+                if(Q13.getText().equals("X")){
+                    jogador.setText("Jogador 1");
+                    Q13.setText("O");
+                }else {
+                    Q13.setText("X");
+                    jogador.setText("Jogador 2");
+
+                }
+
+            }
+        });
     }
 
     public static void main(String[] args) {
